@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-09T09:50:36.645Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="MEnGaZNDt_Iqq8pUKO2_" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-09T10:31:11.492Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="wsrLW_stSx1Y6dpUZU4h" version="21.7.4" type="github">
   <diagram name="페이지-1" id="j7-m7W1ATwXPMDMl0uuA">
     <mxGraphModel dx="1195" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -423,7 +423,7 @@
         <mxCell id="wQWrI5u1uAB9rUZWqKmI-168" value="호출할 때 instance 가능? 불가능? 차이만 존재" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1344.99" y="50" width="270" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="wQWrI5u1uAB9rUZWqKmI-169" value="Console WriteLine = c w tab" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="wQWrI5u1uAB9rUZWqKmI-169" value="Console WriteLine = c w tab tab" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1310" y="990" width="270" height="25" as="geometry" />
         </mxCell>
         <mxCell id="wQWrI5u1uAB9rUZWqKmI-170" value="" style="group" vertex="1" connectable="0" parent="1">
@@ -482,6 +482,9 @@
         </mxCell>
         <mxCell id="wQWrI5u1uAB9rUZWqKmI-187" value="String 문자열 저장을 위해 만든 클래스" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1310" y="1047.5" width="270" height="25" as="geometry" />
+        </mxCell>
+        <mxCell id="wQWrI5u1uAB9rUZWqKmI-188" value="Unity Study .gitignored" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1310" y="1080" width="270" height="25" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
