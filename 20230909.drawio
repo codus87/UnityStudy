@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-09T07:52:52.691Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="r-o2CoZXxgNzTykGNJwk" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-09T08:09:06.592Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="s1t4yFPr3aYiD4yxaVi1" version="21.7.4" type="github">
   <diagram name="페이지-1" id="j7-m7W1ATwXPMDMl0uuA">
-    <mxGraphModel dx="1687" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1247" dy="687" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -299,6 +299,36 @@
         </mxCell>
         <mxCell id="wQWrI5u1uAB9rUZWqKmI-116" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="wQWrI5u1uAB9rUZWqKmI-117" source="wQWrI5u1uAB9rUZWqKmI-113" target="wQWrI5u1uAB9rUZWqKmI-115">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wQWrI5u1uAB9rUZWqKmI-118" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;CLR : 공용 언어 런타임&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="937.5" y="370" width="122.5" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wQWrI5u1uAB9rUZWqKmI-119" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1130.63" y="667.5" width="111.25" height="132.5" as="geometry" />
+        </mxCell>
+        <mxCell id="wQWrI5u1uAB9rUZWqKmI-120" value="함수호출스택" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1130.625" y="630" width="111.25" height="37.5" as="geometry" />
+        </mxCell>
+        <mxCell id="wQWrI5u1uAB9rUZWqKmI-122" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150.4" y="747" width="71.7" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wQWrI5u1uAB9rUZWqKmI-123" value="Main(string[] args)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1134.375" y="730" width="103.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wQWrI5u1uAB9rUZWqKmI-124" value="Console.WriteLine(??)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="970" y="130" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wQWrI5u1uAB9rUZWqKmI-125" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1150.4" y="690" width="71.7" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wQWrI5u1uAB9rUZWqKmI-126" value="Console.WriteLine(&quot;Hello,World&quot;)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1134.375" y="673" width="103.75" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="wQWrI5u1uAB9rUZWqKmI-127" value="끝나면 호출스택에서 해제.&lt;br&gt;어떤 함수에서 다른 함수를 호출하게 되면&lt;br&gt;위치를 기억해서 다시 실행" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1245.0100000000002" y="715" width="249.99" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wQWrI5u1uAB9rUZWqKmI-128" value="Process" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="850" y="85" width="120" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
