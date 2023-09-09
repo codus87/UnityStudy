@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-09-09T07:31:43.221Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="NaKMhjXTCNo5eriFMmkL" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-09T07:43:04.008Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="_iwcBsHuQmFEfSOfFAk-" version="21.7.4" type="github">
   <diagram name="페이지-1" id="j7-m7W1ATwXPMDMl0uuA">
-    <mxGraphModel dx="819" dy="451" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="683" dy="376" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -273,8 +273,14 @@
         <mxCell id="wQWrI5u1uAB9rUZWqKmI-108" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;int 나이;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1077.5" y="190" width="42.5" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="wQWrI5u1uAB9rUZWqKmI-109" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;int 나이=1;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1077.5" y="230" width="52.5" height="10" as="geometry" />
+        <mxCell id="wQWrI5u1uAB9rUZWqKmI-109" value="&lt;font style=&quot;font-size: 9px;&quot;&gt;int 영희.나이 = 1&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1077.5" y="230" width="82.5" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="wQWrI5u1uAB9rUZWqKmI-110" value="static char : 뒤에 있는 변수에 대해서 정적으로 선언하겠다.&lt;br&gt;(동적으로 할당할 수 없다.)&lt;br&gt;ex. 영희에 나이와 성별을 추가했을 때 객체 할당 시 필요한&lt;br&gt;메모리는 4+2byte. (char=2byte)&lt;br&gt;static char을 사용하면 객체 할당 시 필요한&lt;br&gt;메모리는 4byte&lt;br&gt;-heap 영역에 int age와 같이 있지 않고&lt;br&gt;정적변수로써 초기값을 명시했기 때문에 Data영역에 할당된다." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1195.5" y="480" width="349" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wQWrI5u1uAB9rUZWqKmI-111" value="&lt;font size=&quot;1&quot;&gt;static char 영희.성별 = &#39;여&#39;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1077.5" y="210" width="122.5" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
