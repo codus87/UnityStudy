@@ -1,0 +1,18 @@
+작업할 때는 2by3
+scenes->new scene
+renderer 화면에 그리고 싶은 것에 component 추가하는 것들 - 자주색 : null값 (스킨입히기 같은 느낌)
+project setting - other setting - comfiguration - scripting Background (mono / IL2CPP)
+								- code generation : faster runtime / faster builds
+edit preferences
+assets export import essets
+window package manager - 없는창 찾을 때 (ex.rendering)
+
+*물체 움직일때 global grid snapping 지정한 칸 수 만큼 이동할 수 있다.
+*increment snapping ctrl 누르고 이동시 지정한 칸 수 만큼 이동할 수 있다.
+	-rotate 버튼 누른 후 ctrl 누르고 이동시 지정한 칸 수 만큼 회전한다.
+qwerty - scene화면 단축키들
+카메라 이동 오른쪽 마우스 각도 변경 가능 / 오른쪽 마우스 누른 상태로 - wasd qe 사용해서 이동가능
+카메라 줌인 줌아웃 스크롤 (카메라 이동속도 조정 가능 - 신 윗줄 오른쪽 두번째)
+alt 누른 후 왼쪽키 각도 변경 가능 오른쪽키 줌인 줌아웃
+
+gizmo - 화면 내 모든 그래픽적인 요소들
