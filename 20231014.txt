@@ -1,0 +1,22 @@
+*유니티 ctrl shift c
+// 인라인 함수 : 함수 오버헤드를 줄이기 위해 기능 구현부를 해당 라인에 직접 삽입하는 함수
+        // C#에서의 인라인 함수 구현 : 익명함수 (람다식) 으로 구현함.
+        // 람다식 : 컴파일러가 판단할 수 있는 코드를 모두 생략하고 이름을 생략한 함수식
+        _player.onHpChanged += (value) => _hpBar.value = value;
+    }
+
+    (value) => _hpBar.value = value;
+
+     private void RefreshHPBar(float value)
+    {
+        _hpBar.value = value;
+    }
+*람다식 예시 익히기
+
+Console.WriteLine(Sum <int>(1, 2));
+
+오브젝트 선택 후 v키 누르면 꼭지점 선택해서 붙일 수 있다.
+
+ctrl + shift 누르고 옮기면 표면 옮기기 가능(?)
+
+unity chan!
