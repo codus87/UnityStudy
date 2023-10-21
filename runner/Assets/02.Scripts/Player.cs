@@ -1,18 +1,17 @@
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Data;
 using UnityEngine;
 
 public class Operatable<T>
 {
-    public T Value;
+    public T value;
 
     public static Operatable<T> operator +(Operatable<T> a, Operatable<T> b)
     {
         return a;
     }
 }
+
+
 public class Player : MonoBehaviour
 {
     public float hp
@@ -45,13 +44,13 @@ public class Player : MonoBehaviour
     public event Action<float> onHpChanged;
 
     // Action 대리자
-    // 파라미터를 0~16개 까지 받을 수 있는
-    // void 를 반환하는 형태의 대리자
+    // 파라미터를 0~ 16개 까지 받을 수 있는 
+    // void 를 반환하는 형태의 대리자.
     public Action<int, float, string> action;
 
     // Func 대리자
-    // 파라미터를 0~16개 까지 받을 수 있는
-    // 제네릭타입을 반환하는 형태의 대리자
+    // 파라미터를 0~ 16개 까지 받을 수 있는
+    // 제네릭타입을 반환하는 형태의 대리자.
     public Func<int, float, string> func;
 
     // Predicate 대리자
@@ -60,15 +59,15 @@ public class Player : MonoBehaviour
     // 어떤 아이템의 match 조건을 검사할때 사용함. (자료구조에서 특정 자료 탐색을 해야할때 주로 씀)
     public Predicate<int> match;
 
-    // Generic
+
+    // Generic 
     // 어떤 타입을 일반화하는 사용자정의 서식
-
+    
     // where 한정자
-    // Generic 타입이 어떤 타입으로 공변가능한지 제한을 거는 한정자
-
+    // Generic타입이 어떤 타입으로 공변가능한지 제한을 거는 한정자
     public T Sum<T>(T a, T b)
         where T : Operatable<T>
-        => (a + b).Value;
+        => (a + b).value;
 
     public int Sum(int a, int b)
         => a + b;
@@ -80,9 +79,8 @@ public class Player : MonoBehaviour
         => a + b;
 
 
-
-    public void DepleteHP(float amount)
+    public void DepleteHp(float amout)
     {
-        hp -= amount;
+        hp -= amout;
     }
 }

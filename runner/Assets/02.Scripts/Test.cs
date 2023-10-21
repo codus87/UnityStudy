@@ -12,7 +12,7 @@ public class Test : MonoBehaviour
     // (이 클래스를 컴포넌트로 가지는 게임오브젝트가 비활성화된 채로 씬이 로드되었다면, 스크립트인스턴스도 로드되지않음. 
     // 활성화되는 순간 스크립트 인스턴스도 로드함 )
     // 스크립트 인스턴스가 로드될 때 한번 호출
-    // 생성자에서 보통 구현하는 멤버 초기화 등에대한 구현을 Awake()에다가 해주면 된다..
+    // 생성자에서 보통 구현하는 멤버 초기화 등에대한 구현을 Awake()에다가 해주면 된다....
     private void Awake()
     {
         Debug.Log("Awake");
@@ -62,7 +62,7 @@ public class Test : MonoBehaviour
     {
         Debug.Log("On Mouse over");
     }
-
+    
     // 매프레임마다 호출 (기기 성능에 따라 호출 주기가 달라짐)
     private void Update()
     {
@@ -85,6 +85,11 @@ public class Test : MonoBehaviour
     {
         Gizmos.color = Color.cyan;
         Gizmos.DrawWireSphere(Vector3.zero, 2.1f);
+    }
+
+    private void OnApplicationPause(bool pause)
+    {
+        
     }
 
     private void OnApplicationQuit()

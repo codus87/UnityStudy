@@ -9,11 +9,11 @@ public class DamageButton : MonoBehaviour
     [SerializeField] private Player _player;
 
     private void Start()
-    { 
+    {
         _button = GetComponent<Button>();
         _button.onClick.AddListener(() => _player.hp -= 5.0f);
     }
 
-    //() => _player.hp -= 5.0f;
     
+
 }
